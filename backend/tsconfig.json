@@ -19,5 +19,5 @@
     "src/admin/",
     "**/*.test.*",
     "src/plugins/**"
-  ]
+  ],
 }

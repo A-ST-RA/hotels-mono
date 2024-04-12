@@ -1,0 +1,20 @@
+{
+  "name": "hotels-mono",
+  "private": true,
+  "workspaces": [
+    "backend"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build --verbose tsconfig.build.json",
+    "dev": "yarn workspaces run dev"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.6",
+    "@types/node": "^20.12.7",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
