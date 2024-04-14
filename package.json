@@ -6,8 +6,9 @@
   ],
   "main": "index.js",
   "scripts": {
-    "build": "tsc --build --verbose tsconfig.build.json",
-    "dev": "yarn workspaces run dev"
+    "build": "yarn workspaces run build",
+    "dev": "yarn workspaces run dev",
+    "types": "yarn workspace @hotels-mono/backend types"
   },
   "dependencies": {},
   "devDependencies": {

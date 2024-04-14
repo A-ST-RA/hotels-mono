@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_hotel_components_rooms",
+  "info": {
+    "displayName": "Room",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
