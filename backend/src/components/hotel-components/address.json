@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_hotel_components_addresses",
+  "info": {
+    "displayName": "address",
+    "icon": "sun"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "latitude": {
+      "type": "float"
+    }
+  }
+}

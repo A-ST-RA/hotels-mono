@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accommodation_rules",
+  "info": {
+    "singularName": "accommodation-rule",
+    "pluralName": "accommodation-rules",
+    "displayName": "Accommodation Rule",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

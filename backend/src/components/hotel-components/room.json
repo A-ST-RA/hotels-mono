@@ -2,15 +2,24 @@
   "collectionName": "components_hotel_components_rooms",
   "info": {
     "displayName": "Room",
-    "icon": "book"
+    "icon": "book",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-    "slug": {
-      "type": "string"
+    "accommodationRules": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::accommodation-rule.accommodation-rule"
+    },
+    "address": {
+      "displayName": "address",
+      "type": "component",
+      "repeatable": false,
+      "component": "hotel-components.address"
     }
   }
 }

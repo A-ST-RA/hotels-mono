@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "hotels",
   "info": {
     "singularName": "hotel",
@@ -23,22 +23,34 @@
       "required": true
     },
     "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "description": {
       "type": "richtext"
+    },
+    "rooms": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hotel-components.room"
+    },
+    "accommodationRules": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::accommodation-rule.accommodation-rule"
     }
   }
 }
