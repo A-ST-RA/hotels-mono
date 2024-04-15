@@ -39,9 +39,6 @@
         "videos"
       ]
     },
-    "description": {
-      "type": "richtext"
-    },
     "rooms": {
       "type": "component",
       "repeatable": true,

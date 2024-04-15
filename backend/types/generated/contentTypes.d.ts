@@ -871,7 +871,6 @@ export interface ApiHotelHotel extends Schema.CollectionType {
     slug: Attribute.UID<'api::hotel.hotel', 'title'> & Attribute.Required;
     thumbnail: Attribute.Media;
     images: Attribute.Media;
-    description: Attribute.RichText;
     rooms: Attribute.Component<'hotel-components.room', true>;
     accommodationRules: Attribute.Relation<
       'api::hotel.hotel',
